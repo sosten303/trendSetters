@@ -1,0 +1,120 @@
+ /*footer*/
+ 
+ .main-footer{
+  background-color: #00B9FF;
+  color: white;
+  margin-top: 20px;
+}
+
+.main-footer, h4 p{
+	padding: 10px;
+}
+
+.main-footer a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 8px;
+
+}
+
+.main-footer a:hover{
+	color: blue;
+
+}
+
+
+
+/* div #footer, input[type=text] {
+  width: 100%;
+  border: 10px solid white;
+  background-color: lavender;
+  color: black;
+}*/
+
+.footer-form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.footer-form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.footer-form-inline input {
+  vertical-align: middle;
+  /*margin: 5px 10px 5px 0;*/
+  padding: 11px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.footer-form-inline button {
+  padding: 10px;
+  background-color: dodgerblue;
+  /*border: 1px solid #ddd;*/
+  color: white;
+  cursor: pointer;
+}
+
+.footer-form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .footer-btn {
+   margin:auto;
+   margin-left: 1px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-form-inline input {
+    margin:auto;
+  }
+  
+  .footer-form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.footer-btn {
+  /*background-color: #4CAF50;*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+}
+
+#footer-social a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+
+
+}
+
+#footer-copy p{
+	padding: 30px;
+
+
+}
+
+#footer-copy a{
+	color: black;
+	font-size: 16px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+#footer-copy a:hover{
+	color: blue;
+}

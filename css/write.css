@@ -1,0 +1,119 @@
+body{
+	font-family: Arial, Helvetica,verdana, sans-serif;
+  margin: 0px;
+  background-color:lavender; 
+}
+
+.heading{
+	padding: 60px 370px;
+}
+
+.heading p{
+	text-align: center;
+	background-color: #444;
+	padding: 20px;
+	opacity: 0.8;
+	color:#ffffff;
+}
+
+.heading a{
+	color: #0099FA;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 800px){
+	.heading{
+		float: none;
+		width: auto;
+	}
+}
+ 
+ .heading span, #join{
+ 	color: #b2b2b2;
+ }
+
+.form-container{
+	background-color:white;
+	padding:20px;
+}
+
+.form-container input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  margin-left: 50px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+ .form-container input[type=text], input[type=password] {
+    width: auto;
+  }
+}
+input#post-btn {
+ background-color:#0064FF;
+ color: white;
+ padding:10px 21px;
+ margin: 20px 0;
+ margin-left: 50px;
+ border: none;
+ cursor: pointer;
+ width: auto;
+ /*color: #444444;
+ padding: 15px;
+ text-shadow: 0px 1px 1px #ffffff;
+ border-bottom: 2px solid #b2b2b2;
+ background-color: #b9e4e3;
+ background: -webkit-gradient(linear, left top,   left bottom, from(#beeae9), to(#a8cfce));
+ background:   -moz-linear-gradient(top, #beeae9, #a8cfce);
+ background:   -o-linear-gradient(top, #beeae9, #a8cfce);
+ background:   -ms-linear-gradient(top, #beeae9, #a8cfce);*/
+}
+
+input#post-btn:hover {
+ opacity: 0.7;
+} 
+
+input#cancel-btn {
+ background-color:red;
+ color: white;
+ padding:10px 21px;
+ margin: 8px 0;
+ margin-left: 120px;
+ border: none;
+ cursor: pointer;
+ width: auto;
+}
+
+input#cancel-btn:hover{
+	opacity: 0.7;
+}
+
+
+.form-container label {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.form-container label p{
+	margin-top: 40px;
+	margin-bottom: -10px;
+	margin-left: 50px;
+}
+
+textarea{
+	padding: 47px;
+	margin-left: 50px;
+}
+
+#date-published{
+	margin-left: 50px;
+}
+
+select{
+	padding: 5px;
+	margin-left: 50px;
+}

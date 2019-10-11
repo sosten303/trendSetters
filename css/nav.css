@@ -1,0 +1,53 @@
+/*nav.css*/
+ #nav {
+ 	display: inline;
+   background-color: #efefef;
+   padding: 10px; margin: 10px;
+   }
+
+ li{display: inline;
+ 	padding: 5px;}
+
+/*sub menu code*/
+#nav li ul {
+	display: none;
+	position: absolute;
+}
+
+#nav a {
+	border-bottom: none;
+}
+
+/*hover on the parent menu to display the sub menu*/
+#nav li:hover ul{
+	display: block;
+}
+
+/*target the sub menu li to display vertically*/
+#nav li ul li{
+	display: block;
+}
+
+/*text now is left-aligned, has to be fixed*/
+#nav ul  li {
+    text-align: center;
+  }
+
+  /*child selector to remove left padding*/
+  #nav > ul > li > a {
+    padding-left: 0;
+}
+
+/*min*/
+
+#feature, #footer {
+	text-align: center;}
+
+#nav, #feature, .article, #footer{
+ font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+ }
+
+ #feature, .article, #footer { background-color: #efefef; margin-top: 20px; padding: 10px 0px 5px 0px;}
+ 
+ 
